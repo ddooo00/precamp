@@ -1,0 +1,80 @@
+const fruits = [
+    {numper : 1, title : "레드향"},
+    {numper : 2, title : "샤인머스켓"},
+    {numper : 3, title : "산청딸기"},
+    {numper : 4, title : "한라봉"},
+    {numper : 5, title : "사과"},
+    {numper : 6, title : "애플망고"},
+    {numper : 7, title : "딸기"},
+    {numper : 8, title : "천혜향"},
+    {numper : 9, title : "과일선물세트"},
+    {numper : 10, title : "귤"},
+    ]
+// undefined
+for ( let a = 0; a < fruits.length; a++ ) {
+    console.log ( fruits[a].numper + " " + fruits[a].title)
+}
+// VM3461:2 1 레드향
+// VM3461:2 2 샤인머스켓
+// VM3461:2 3 산청딸기
+// VM3461:2 4 한라봉
+// VM3461:2 5 사과
+// VM3461:2 6 애플망고
+// VM3461:2 7 딸기
+// VM3461:2 8 천혜향
+// VM3461:2 9 과일선물세트
+// VM3461:2 10 귤
+// undefined
+for ( let a = 0; a < fruits.length; a++ ) {
+    console.log ( `${fruits[a].numper} ${fruits[a].title} `)
+}
+// VM3864:2 1 레드향 
+// VM3864:2 2 샤인머스켓 
+// VM3864:2 3 산청딸기 
+// VM3864:2 4 한라봉 
+// VM3864:2 5 사과 
+// VM3864:2 6 애플망고 
+// VM3864:2 7 딸기 
+// VM3864:2 8 천혜향 
+// VM3864:2 9 과일선물세트 
+// VM3864:2 10 귤 
+// undefined
+for ( let a = 0; a < fruits.length; a++ ) {
+    console.log ( `과일 차트${fruits[a].numper}위는 ${fruits[a].title}입니다 `)
+}
+// VM3932:2 과일 차트1위는 레드향입니다 
+// VM3932:2 과일 차트2위는 샤인머스켓입니다 
+// VM3932:2 과일 차트3위는 산청딸기입니다 
+// VM3932:2 과일 차트4위는 한라봉입니다 
+// VM3932:2 과일 차트5위는 사과입니다 
+// VM3932:2 과일 차트6위는 애플망고입니다 
+// VM3932:2 과일 차트7위는 딸기입니다 
+// VM3932:2 과일 차트8위는 천혜향입니다 
+// VM3932:2 과일 차트9위는 과일선물세트입니다 
+// VM3932:2 과일 차트10위는 귤입니다 
+// undefined
+
+Math.floor ( Math.random() * 1000000 )
+// 927829
+String ( Math.floor ( Math.random() * 1000000 ) )
+// '517603'
+String ( Math.floor ( Math.random() * 1000000 ) )
+// '950417'
+String ( Math.floor ( Math.random() * 1000000 ) )
+// '597524'
+String ( Math.floor ( Math.random() * 1000000 ) )
+// '316405'
+String ( Math.floor ( Math.random() * 1000000 ) )
+// '624332'
+String ( Math.floor ( Math.random() * 1000000 ) )
+// '673977'
+String ( Math.floor ( Math.random() * 1000000 ) ).padStart(6,"0")
+// '463619'
+String ( Math.floor ( Math.random() * 1000000 ) ).padStart(6,"0")
+// '943654'
+let result = String ( Math.floor ( Math.random() * 1000000 ) ).padStart(6,"0")
+// undefined
+result
+// '007138'
+result
+// '007138'
